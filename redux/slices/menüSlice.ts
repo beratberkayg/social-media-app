@@ -12,12 +12,12 @@ export const menüSlice = createSlice({
   name: "menüSlice",
   initialState,
   reducers: {
-    toogleMenüFunc: (state) => {
+    openMenü: (state) => {
       state.menüModal = !state.menüModal;
     },
   },
 });
 
-export const { toogleMenüFunc } = menüSlice.actions;
+export const { openMenü } = menüSlice.actions;
 
 export default menüSlice.reducer;
