@@ -12,7 +12,7 @@ const Navbar = () => {
   const { menüModal } = useAppSelector((state) => state.modal);
 
   return (
-    <div className="w-full h-[65px] shadow-lg shadow-[#2a0e61]/50 bg-[#03001417] backdrop-blur-md px-10 flex justify-between items-center z-[1] text-white ">
+    <div className="w-full h-[65px] shadow-lg shadow-[#2a0e61]/50 bg-[#03001417] backdrop-blur-md px-10 flex justify-between items-center text-white ">
       <div className="text-3xl">
         <Link href="/">BBG</Link>
       </div>

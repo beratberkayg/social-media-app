@@ -2,9 +2,8 @@ import React from "react";
 
 const HeroContent = () => {
   return (
-    <div className="flex flex-col items-center gap-10 w-[90%] mx-auto mb-10">
+    <div className="flex flex-col items-center gap-10 w-[90%] mx-auto mt-[130px]">
       <p className="text-3xl">BBG Sosyale Hoş Geldin</p>
-
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
         expedita tempora? Atque in distinctio, id quibusdam aliquid, corporis
