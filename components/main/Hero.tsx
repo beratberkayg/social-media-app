@@ -2,12 +2,12 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="absolute flex flex-col h-full w-full ">
+    <div>
       <video
         autoPlay
         muted
         loop
-        className="rotate-180 absolute top-[-40%] left-0  z-[-1] w-full h-full object-cover "
+        className="rotate-180 absolute top-[-45%] left-0  z-[-10] w-full h-full object-cover "
       >
         <source src="/blackhole.webm" type="video/webm" />
       </video>
